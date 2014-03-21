@@ -28,7 +28,7 @@ module DMSetup
     end
 
     DataMapper.finalize
-    # reset_db # TODO: eventually remove this--this just resets the DB every time we run the application
+    reset_db
 
   end
 
@@ -39,5 +39,5 @@ module DMSetup
 end
 
 unless defined? DM
-  DM = DataMapperSetup.connect
+  DM = DMSetup.connect
 end

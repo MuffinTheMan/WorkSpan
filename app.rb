@@ -7,4 +7,6 @@ require_relative 'lib/app/settings'
 ROOT = File.realpath(File.dirname(__FILE__))
 
 # Need to require this after initializing the constants above
-# require_relative 'lib/app/dm_setup'
+require_relative 'lib/app/dm_setup'
+
+puts "Wow! Cool program :)"

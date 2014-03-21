@@ -1,0 +1,8 @@
+env: dev
+
+dev:
+  db:
+    type: sqlite
+    url: db/work_span.db
+
+# live:

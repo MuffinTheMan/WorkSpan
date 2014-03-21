@@ -1,0 +1,3 @@
+*.project
+.yardoc*
+*.DS_Store
